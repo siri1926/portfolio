@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: bisque;
+    overflow-x:hidden ;
+}
+
+.img{
+    border-style: double;
+    background-size: 97%;
+    background-repeat: no-repeat;
+    width: 390px;
+    height: 415px;
+    background-position: repeat;
+    border-radius: 127%;
+    background-image: url(images/background.jpg);
+    position: absolute;
+    margin-left: 61%;
+    margin-top: -25%;
+    
+}
+.img:hover{
+    color: gold;
+    border-width: 2px;
+}
+.logo{
+    width: 291px;
+    padding: 15px 5px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none ;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: rgb(111, 234, 227);
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: #d7631f;
+    position: absolute;
+    left: 0;
+    bottom:-6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+li:hover{
+    transform: scaleY(1.5);
+}
+nav ul li a:hover{
+    color: chartreuse;
+   
+}
+.header-text{
+    margin-top: 8%;
+    font-size: 40px;
+
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color:#ff0076;
+}
+.container{
+    display:flex;
+
+}
+ i:hover{
+color:azure;
+transform:scaleY(2)
+}
+
+
+
+
+    
+
+
+
+ .container{
+    padding:10px 10%; 
+
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ } 
+ /* .....................................about.................................. */
+ #about{
+    padding: 166px 0;
+    color: cadetblue;
+ }
+ .subtitle:hover{
+    color: aliceblue;
+    transform: scaleY(1.5);
+ }
+ .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .about-col-1{
+    flex-basis:35%;
+ }
+ .about-col-1 img{
+    width: 100%;
+    border-radius:97px;
+ }
+ .about-col-2{
+    flex-basis: 60%;
+
+ }
+ 
+ 
+ .subtitle{
+    font-size: 60px;
+    font-weight: 600;
+
+ }
+ .tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+    
+ }
+ 
+
+
+.tab-contents ul li{
+    list-style: none;
+    margin:10px 0;
+
+}
+.tab-contents ul li span{
+    color: coral;
+    font-size: 14px;
+
+}
+ .tab-contents{
+    display: block; 
+ }
+ .tab-contents.active-tab{
+    display: block;
+}
+#skills{
+    display:flex;
+    border-radius: 10px 10px;
+}
+.tab-titles{
+    display: flex;
+    border-style: double;
+    border-radius: 9px 10px;
+    justify-content: space-between;
+
+}
+.tab-contents{
+    display: flex;
+    border-style: double;
+    border-radius: 16px 24px;
+    justify-content: space-evenly;
+    width:240px;
+    
+}
+.container3{
+    display: flex;
+    column-gap: 23px;
+}
+
+/* ...........................services...................................... */
+#services{
+    padding:30px 0;
+}
+.sub-title{
+    size: 40px;
+    color: #ff0076;
+
+}
+.sub-title:hover{
+    color: cornsilk;
+}
+.services-list{
+    display:grid;
+    margin-top: 20px;
+    border-radius: 10px 6px;
+
+}
+.tab-contents2{
+
+display: flex;
+border-style: double;
+border-radius: -7px 6px;
+justify-content: space-between;
+flex-wrap: wrap;
+width:226px;
+
+}
+.container4{
+    display: flex;
+    align-items: start;
+    padding-left: 148px;
+    color: bisque;
+}
+#span{
+    color: aqua;
+}
+.pics{
+    display:flex;
+    width: 40px;
+    border-style: double;
+    border-radius: 10px 6px;
+    align-content: space-between;
+    size: 20px;
+}
+.img1{
+    border-style: double;
+    border-color: red;
+    width: 390px;
+    height: 415px;
+    background-position: right;
+    background-size: 97%;
+    background-repeat: no-repeat;
+    border-radius: 127%;
+    background-image: url(webdesign.jpg);
+    position: absolute;
+    margin-left: 38%;
+    margin-top: -39%;
+}
+.img1:hover{
+    border-color:aliceblue;
+}
+.img2{
+    border-style: double;
+    border-color:red;
+    width: 390px;
+    height: 415px;
+    background-position: right;
+    background-size: 97%;
+    background-repeat: no-repeat;
+    border-radius: 127%;
+    background-image: url(uidesign.jpg);
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -19%;
+
+}
+.img2:hover{
+    border-color:aliceblue;
+}
+.img3{
+    border-style: double;
+    border-color: red;
+    width: 390px;
+    height: 415px;
+    background-position: right;
+    background-size: 97%;
+    background-repeat: no-repeat;
+    border-radius: 127%;
+    background-image: url(appdevelop.jpg);
+    position: absolute;
+    margin-left: 73%;
+    margin-top: -35%;
+}
+.img3:hover{
+   border-color:aliceblue;
+}
+/* .................................................portfolia................................. */
+#portfolio{
+    padding: 50px 10px;
+}
+.work{
+    border-radius: 10px;
+    position:relative;
+    overflow: hiddden;
+}
+
+.port{width: 100%;
+    height:100%;
+    background: linear-gradient(rgba(0,0,0,0.6),blue);
+    border-radius: 10px;
+
+    overflow:hidden;
+    display: flex;
+    width: 539px;
+    padding-left: 92px;
+    padding-top: 59px;
+    flex-wrap: wrap;
+
+}
+h3 span{
+    color: #ff0076;
+}
+.sub-title{
+    size: 40px;
+    color: #ff0076;
+
+}
+.sub-title:hover{
+    color: cornsilk;
+}
+h1 span:hover{
+    color: aqua;
+    transform-style: preserve-3d;
+    transform :scaleY(3);
+}
+.pic1{
+    width: 314px;
+    height:207px;
+    border-style: double;
+    border-color: #ff0076;
+}
+.pic1:hover{
+    border-style: double;
+border-color: beige;
+transform: scale3d(2);
+}
+.pic2{
+    width: 314px;
+    height:207px;
+    border-style: double;
+    border-color: #ff0076;
+}
+.pic2:hover{
+    border-style: double;
+border-color: beige;
+transform: scale3d(2);
+}
+
+.pic3{
+    width: 314px;
+    height:207px;
+    border-style: double;
+    border-color: #ff0076;
+}
+.pic3:hover{
+    border-style: double;
+border-color: beige;
+transform: scale3d(2);
+}
+
+/* .................................contact..................... */
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: aquamarine;
+    margin-right: 15px;
+    font-size:25px;
+}
+.btn{
+    
+    padding-right: 150px;
+    
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border:o;
+    outline:none;
+     background: linear-gradient(rgba(0,0,0,0.6),rgb(104 169 217 / 53%));
+     padding: 15px;
+     margin: 15px o;
+     color: #d7631f;
+     font-size: 18px;
+     border-radius: 6px;
+}
+form button{
+    padding:14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+form button:hover{
+    color:black;
+    transform: scaleX(2);
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background:violet;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright:hover{
+    color: black;
+    transform: scaleX(1.5);
+}
+
+
+
+
+
+
